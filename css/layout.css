@@ -24,4 +24,50 @@
 
 /* Positioning Classes */
 
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  max-width: 64%;
+ 
+}
+
+
+[class*="col-"] {
+  margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+
+div#social {
+  position: fixed;
+  top: 200px;
+  right: 20px;
+  width: 40px;
+  z-index: 1;
+}
+
+#social a {
+  position: block;
+  width: 40px;
+  height: 40px;
+  background-color: yellow;
+}
+
+
+
+
+
+
 
